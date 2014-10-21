@@ -55,8 +55,10 @@ so in my solution this is done by "process.php"
 	?>
 	
 	<script>
-	    window.open('<?php echo BASE_URL?>download.php','_blank');          //BASE_URl is provided by config.php
+	    window.location.href="<?php echo BASE_URL?>download.php";         //BASE_URl is provided by 
+	                                                                            //config.php for redirection to download.php
 	</script>
+
 
 in which file will be provided by the user from index .php
 
