@@ -3,8 +3,8 @@
 include("function.php");
 include("config.php");
 
-$file1=process($_FILES['unorg1']);
-$file2=process($_FILES['unorg2']);
+$file1=process($_FILES['unorg1']);                         //process() method is 
+$file2=process($_FILES['unorg2']);                           //from function.php.             
 
 $newfile=array();
 $empty=array("","","","","");
@@ -37,5 +37,5 @@ $_SESSION["finalout"]=$newfile;
 ?>
 
 <script>
-    window.open('<?php echo BASE_URL?>download.php','_blank');
+    window.open('<?php echo BASE_URL?>download.php','_blank');             //BASE_URL is provided by config.php
 </script>
