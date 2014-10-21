@@ -37,5 +37,7 @@ $_SESSION["finalout"]=$newfile;
 ?>
 
 <script>
-    window.open('<?php echo BASE_URL?>download.php','_blank');             //BASE_URL is provided by config.php
+    window.location.href="<?php echo BASE_URL?>download.php";         //BASE_URl is provided by 
+                                                                            //config.php for redirection to download.php
 </script>
+
