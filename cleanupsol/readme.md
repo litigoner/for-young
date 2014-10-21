@@ -1,4 +1,4 @@
-cleanupsol(solution for clean-up-contracts-data)
+<h3>cleanupsol(solution for clean-up-contracts-data)</h3>
 
 The task was to "read the two files contracts.csv and awards.csv and output data-combined file final.csv and prints the following output 'Total Amount of closed contracts: 700000' in the screen."
 
