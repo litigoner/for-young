@@ -2,7 +2,7 @@
 include("function.php");
 include("config.php");
 
-$file=process($_FILES['unorg']);
+$file=process($_FILES['unorg']);                    //process() method is provided by function.php
 
 array_shift($file);
 $rslt_head=array("AMP ID","Project Title","Status","District","City");
@@ -48,6 +48,6 @@ $_SESSION["finalout"]=$rslt;
 ?>
 
 <script>
-    window.open('<?php echo BASE_URL?>download.php','_blank');
+    window.open('<?php echo BASE_URL?>download.php','_blank');          //BASE_URl is provided by config.php
 </script>
 
